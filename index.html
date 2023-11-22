@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Task</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:lightcoral;
+        }
+
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .video {
+            margin-bottom: 20px;
+        }
+
+        .share-btn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            outline: none;
+            transition: color 0.3s;
+            position: relative;
+        }
+
+        .share-btn:hover {
+            color: #3498db; 
+        }
+
+        .like-btn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            outline: none;
+            transition: color 0.3s;
+        }
+
+        .like-btn:hover {
+            color: #e74c3c;
+        }
+
+        
+    </style>
+</head>
+<body>
+   <center>
+    <h1>You Chanel</h1>
+   </center>
+
+    <main>
+        <h4>Youtube Logo</h4>
+        <a href="https://www.youtube.com/" target="_blank">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.Y6P1GkxkEoLoIRsS1wMZiwHaFj&pid=Api&P=0&h=180" alt="YouTube Logo">
+            
+        </a>
+        <div class="search-container">
+            <form action="/search" method="get">
+                <input type="text" class="search-input" name="q" placeholder="Search...">
+                <button type="submit" class="search-button">Search</button>
+            </form>
+        </div>
+        <h2>LEO - Naa Ready Lyric Video | Thalapathy Vijay | Lokesh Kanagaraj | Anirudh Ravichander</h2>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/szvt1vD0Uug?si=UpQ3Khql1x0CIhBY"frameborder="0" allowfullscreen></iframe>
+            
+            <p>Sony Music South <button id="like-button" class="like-btn" >❤ Like</button>
+                <button id="share-button" class="share-btn" >▲ Share</button>
+                 <strong><a href="register.html"><button type="submit">subscribe</button></a></strong></p>
+        </div>
+
+        
+
+        
+    </main>
+
+   
+</body>
+</html>
